@@ -54,8 +54,14 @@ section.description{
     margin: 1.5rem auto;
 }
 section.main-content{
-    width: 75%;
+    width: 45%;
     margin: 0 auto 2rem;
+}
+@media screen and (max-width: 653px) {
+    section.main-content{
+        width: 75%;
+        margin: 0 auto 2rem;
+    }
 }
 section.main-content .link{
     width: 100%;
