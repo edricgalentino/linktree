@@ -1,0 +1,99 @@
+:root {
+    --font: "Inter", sans-serif;
+    --size-quote: 95px;
+    --dark-background: #03001e;
+    --yellow: #feac5e;
+    --purple: #c779d0;
+    --blue: #4bc0c8;
+    --white: #ffffff;
+    --violet: #9c6cebf3;
+    --light-yellow: #fbd485;
+    --pink: #ef629f;
+    --light-blue: #20bdff;
+    --opacity: 60%;
+    --card-background: #26243b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #feac5e, #c779d0, #4bc0c8);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: fit-content;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+img.icon {
+    width: 100px;
+    transform:rotateY(180deg);
+    border-radius: 100%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-width: 10px;
+    box-shadow: -50px -20px 40px rgba(227, 135, 255, 0.25),
+                0px 50px 40px rgba(255, 219, 57, 0.3),
+                50px -20px 40px rgba(118, 255, 255, 0.3),
+                0 0 2pt 4pt rgba(255, 255, 255, 0.6);
+}
+section.description{
+    width: 75%;
+    text-align: center;
+    margin: 1.5rem auto;
+}
+section.main-content{
+    width: 75%;
+    margin: 0 auto 2rem;
+}
+section.main-content .link{
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.123);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+section.main-content .link i{
+    position: absolute;
+}
+section.main-content .link a{
+    width: 100%;
+    margin: auto;
+    z-index: 4;
+    text-align: center;
+    color: var(--dark-background);
+    text-decoration: none;
+    transition: .15s ease-in;
+}
+section.main-content .link a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
