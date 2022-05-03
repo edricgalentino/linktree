@@ -47,10 +47,7 @@ img.icon {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-width: 10px;
-    box-shadow: -50px -20px 40px rgba(227, 135, 255, 0.25),
-        0px 50px 40px rgba(255, 219, 57, 0.3),
-        50px -20px 40px rgba(118, 255, 255, 0.3),
-        0 0 2pt 4pt rgba(255, 255, 255, 0.6);
+    box-shadow: -50px -20px 40px rgba(227, 135, 255, 0.25), 0px 50px 40px rgba(255, 219, 57, 0.3), 50px -20px 40px rgba(118, 255, 255, 0.3), 0 0 2pt 4pt rgba(255, 255, 255, 0.6);
 }
 
 section.description {
@@ -95,7 +92,7 @@ section.main-content .link a {
     text-align: center;
     color: var(--dark-background);
     text-decoration: none;
-    transition: .15s ease-in;
+    transition: 0.15s ease-in;
 }
 
 section.main-content .link a:hover {
